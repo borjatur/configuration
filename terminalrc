@@ -1,0 +1,12 @@
+# PATH override
+export PATH=$HOME/bin:/usr/local/bin:$PATH
+
+# MyTheme
+ZSH_THEME="pygmalion"
+
+# Personal aliases
+alias sourcetree='open -a SourceTree'
+alias text='open -a TextEdit'
+alias chrome='open -a "Google Chrome"'
+alias isodate='date -u +"%Y-%m-%dT%H:%M:%SZ"'
+
