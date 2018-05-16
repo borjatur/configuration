@@ -10,4 +10,6 @@ alias text='open -a TextEdit'
 alias chrome='open -a "Google Chrome"'
 alias isodate='date -u +"%Y-%m-%dT%H:%M:%SZ"'
 alias clearfile='cat /dev/null >'
-
+linkedpackages() {
+  find $1 -maxdepth 1 -type l -ls
+}
